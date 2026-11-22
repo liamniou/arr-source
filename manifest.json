@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Arr Source",
+  "version": "1.0.0",
+  "description": "Shows how a movie/series was added to Radarr/Sonarr (Overseerr, import list, or directly).",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": { "service_worker": "background.js" },
+  "options_ui": { "page": "options.html", "open_in_tab": true }
+}

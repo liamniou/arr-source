@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Arr Source options</title>
+<style>
+  body { font: 14px system-ui; max-width: 640px; margin: 2em auto; }
+  label { display: block; margin-top: 1em; font-weight: 600; }
+  input, textarea { width: 100%; box-sizing: border-box; font: inherit; }
+  small { color: #666; font-weight: 400; }
+</style>
+<h2>Arr Source</h2>
+<label>Radarr / Sonarr instances
+  <small>(one per line: <code>http://host:port</code>; optional API key after a space, normally not needed)</small>
+  <textarea id="instances" rows="6" placeholder="http://192.168.0.237:7878"></textarea>
+</label>
+<label>Overseerr URL <input id="overseerrUrl" placeholder="http://192.168.0.237:5055" /></label>
+<label>Overseerr API key <input id="overseerrApiKey" type="password" /></label>
+<p><button id="save">Save</button> <span id="status"></span></p>
+<script src="options.js"></script>
