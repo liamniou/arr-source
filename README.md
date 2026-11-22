@@ -9,6 +9,8 @@ Adds a `Source: …` line to every poster in Radarr/Sonarr (and to the movie/ser
 
 Hover the line for details.
 
+<img width="1278" height="623" alt="image" src="https://github.com/user-attachments/assets/4038a850-3be2-4810-8250-36b8f57e0073" />
+
 ## Install
 
 1. `chrome://extensions` → enable Developer mode → **Load unpacked** → select this folder.
